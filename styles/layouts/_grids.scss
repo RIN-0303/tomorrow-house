@@ -21,10 +21,18 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
     flex-wrap: wrap;
   }
 
+<<<<<<< HEAD
+=======
+  //  .col-sm-1 .col-md-2 . col-lg-3 
+>>>>>>> c77b2c1b107bb6167ac6d6e82aa0def6ef6f06b9
   [class^='col-'] {
     padding: 0 $gutter/2;
   }
 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> c77b2c1b107bb6167ac6d6e82aa0def6ef6f06b9
   @for $i from 1 through $sm-columns {
     .col-sm-#{$i} {
       width: percentage($i / $sm-columns);
@@ -49,6 +57,10 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
     @for $i from 1 through $lg-columns {
       .col-sm-#{$i} {
         width: ($lg-unit + $gutter) * $i;
+<<<<<<< HEAD
+=======
+       
+>>>>>>> c77b2c1b107bb6167ac6d6e82aa0def6ef6f06b9
       }
     }
   }
