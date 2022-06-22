@@ -54,7 +54,7 @@
     @include text-style-24;
   }
 
-  @if (type-of($color) = color) {
+  @if (type-of($color) == color) {
     color: $color;
   }
 }
