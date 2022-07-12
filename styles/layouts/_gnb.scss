@@ -47,7 +47,8 @@
         }
 
         .gnb-auth {
-          margin-right: 8px;
+          margin-left: 8px;
+
           a {
             @include text-style(14, $secondary);
             font-weight: 700;

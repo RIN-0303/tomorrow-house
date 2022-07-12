@@ -6,6 +6,7 @@ $flex-map: (
   stretch: stretch,
   center: center,
 );
+
 @function _get-flex-value($key) {
   @return map-get($flex-map, $key);
 }
