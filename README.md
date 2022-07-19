@@ -86,8 +86,11 @@
   <a class="btn-outlined btn-40" href="/">로그인</a>
   <a class="btn-primary btn-40" href="/">회원가입</a>
 </div>
+````
+
 
 - 로그인을 했을 경우
+
 ```html
 <div class="sidebar-user">
   <a href="/">
@@ -97,4 +100,3 @@
     <strong class="username">사달라</strong>
   </a>
 </div>
-````
