@@ -990,7 +990,10 @@ extensions that change fonts */
   padding: 0 8px; }
 
 .search-history-item {
-  position: relative; }
+  position: relative;
+  border-radius: 2px; }
+  .search-history-item:hover {
+    background-color: #f7f8fa; }
   .search-history-item .word-button {
     font-size: 16px;
     line-height: 24px;
@@ -1011,6 +1014,8 @@ extensions that change fonts */
     height: 32px;
     font-size: 16px;
     color: #b2b3b9; }
+    .search-history-item .delete-button:hover {
+      color: #3f4150; }
 
 .container {
   width: 100%;
