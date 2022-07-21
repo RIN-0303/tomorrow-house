@@ -16,7 +16,7 @@
     @include flexbox;
   }
 
-  &-item {
+  .thumbnail-item {
     @include flexbox;
     margin: 0 4px;
 
