@@ -40,6 +40,21 @@
 
   &-body {
     margin-bottom: 20px;
+
+    .review-image {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      border-radius: 4px;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; //사진이 어떤 비율이든 다 대응할 수 있도록.
+      }
+    }
     p {
       @include text-style(13, $primary);
     }
@@ -51,6 +66,13 @@
     button {
       width: 120px;
       margin-right: 8px;
+
+      i {
+        font-size: 20px;
+        color: $white;
+        margin-right: 4px;
+        margin-left: -4px;
+      }
     }
 
     p {
@@ -79,6 +101,12 @@
     }
 
     &-body {
+      .review-image {
+        width: 112px;
+        height: 112px;
+        margin-bottom: 16px;
+      }
+
       p {
         @include text-style(14);
       }
