@@ -43,7 +43,7 @@
       }
 
       &[disabled] {
-        visibility: hidden;
+        visibility: hidden; //버튼이 disabled상태일때 안보이도록
       }
     }
   }
