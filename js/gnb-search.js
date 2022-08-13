@@ -1,7 +1,7 @@
 const gnbSearch = document.querySelector('.gnb-search')
 const gnbSearchInput = gnbSearch.querySelector('input')
 const gnbSearchHistory = gnbSearch.querySelector('.search-history')
-Iconst gnbSearchHistoryList = gnbSearchHistory.querySelector('ol')
+const gnbSearchHistoryList = gnbSearchHistory.querySelector('ol')
 
 const deleteAllButton = gnbSearchHistory.querySelector(
   '.search-history-header button'
