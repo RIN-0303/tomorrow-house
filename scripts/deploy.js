@@ -9,7 +9,7 @@ console.log('Start deploying...')
 
 ghpages.publish(buildDir, function (err) {
   if (err) {
-    console.log('😭😭 Failed to deploy')
+    console.log('😭Failed to deploy')
     return
   }
 

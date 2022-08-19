@@ -105,7 +105,7 @@ async function build() {
   console.log('------------------------')
   console.log('Start building...')
 
-  // Create `build` directory
+  // Create `build` Directory
   if (!fs.existsSync(buildDir)) fs.mkdirSync(buildDir)
 
   // Build index.html & style.css
